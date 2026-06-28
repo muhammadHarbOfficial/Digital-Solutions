@@ -124,7 +124,7 @@ body {
 }
 
 .h2-text-2 {
-    background-image: linear-gradient(to right in oklab,  #ea580c 0%, #ea580c 50%, #c2410c 100%);
+    background-image: linear-gradient(to right in oklab, #ea580c 0%, #ea580c 50%, #c2410c 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -313,7 +313,7 @@ nav .navbar-nav .nav-item:hover {
 }
 
 .hero h1 span:last-child {
-    background-image: linear-gradient(to right in oklab,  #fb923c 0%, #ea580c 50%, #ea580c 100%);
+    background-image: linear-gradient(to right in oklab, #fb923c 0%, #ea580c 50%, #ea580c 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -405,7 +405,7 @@ nav .navbar-nav .nav-item:hover {
 
 .service:hover,
 .card:hover {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transform: translate(0px, -10px);
     -webkit-transform: translate(0px, -10px);
     -moz-transform: translate(0px, -10px);
@@ -414,10 +414,10 @@ nav .navbar-nav .nav-item:hover {
 }
 
 .service .icon-holder {
-    background-image: linear-gradient(to right in oklab,  #ea580c 0%, #ea580c 50%, #c2410c 100%);
+    background-image: linear-gradient(to right in oklab, #ea580c 0%, #ea580c 50%, #c2410c 100%);
     width: 64px;
     height: 64px;
-    font-size:22px;
+    font-size: 22px;
     transition: transform 0.3s;
     -webkit-transition: transform 0.3s;
     -moz-transition: transform 0.3s;
@@ -477,11 +477,12 @@ nav .navbar-nav .nav-item:hover {
 
 /*? Start Technology Section */
 
-    /****  Start Navs & tabs *******/
+/****  Start Navs & tabs *******/
 
 .nav {
     border-bottom: 1px solid var(--text-color);
 }
+
 .nav-item {
     padding: 14px;
     transition-duration: 0.3s !important;
@@ -489,26 +490,27 @@ nav .navbar-nav .nav-item:hover {
 
 .nav-item:hover {
     border-bottom: 2px solid var(--main-color);
-    
+
 }
 
 .nav-link {
     color: var(--text-color);
-    text-transform: capitalize;  
+    text-transform: capitalize;
 }
 
 .nav-link:hover {
     color: var(--main-color);
-        
+
 }
 
 
 
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     color: var(--main-color);
     background-color: transparent;
-    
+
 }
 
 .card {
@@ -538,7 +540,7 @@ nav .navbar-nav .nav-item:hover {
     font-size: 14px;
 }
 
-.tag  {
+.tag {
     display: inline-block;
     font-size: 12px;
     font-weight: 500;
@@ -546,6 +548,7 @@ nav .navbar-nav .nav-item:hover {
     margin-right: 5px;
     margin-bottom: 10px;
 }
+
 .react {
     background-color: var(--react-bg-card-color);
 }
@@ -600,6 +603,7 @@ nav .navbar-nav .nav-item:hover {
     background-color: #ffedd4;
     color: #9f2d00;
 }
+
 .tailwind {
     background-color: var(--tailwind-bg-card-color);
 }
@@ -899,7 +903,8 @@ nav .navbar-nav .nav-item:hover {
 .graphql .card-icon {
     background-color: var(--net-bg-color);
 }
-    /****  End Navs & tabs *******/
+
+/****  End Navs & tabs *******/
 
 /*? End Technology Section */
 
@@ -924,7 +929,7 @@ nav .navbar-nav .nav-item:hover {
     margin-right: 10px;
 }
 
-.testimonials .rating .stars{
+.testimonials .rating .stars {
     font-size: 13px;
     color: #FDC700;
 }
@@ -937,7 +942,7 @@ nav .navbar-nav .nav-item:hover {
 .testimonials .review p {
     font-weight: 400;
     font-size: 20px;
-    color: var(var(--text-color))
+    color: var(--text-color)
 }
 
 .testimonials .review .reviewer-img {
@@ -945,7 +950,7 @@ nav .navbar-nav .nav-item:hover {
 }
 
 
-.testimonials .review .reviewer-img svg{
+.testimonials .review .reviewer-img svg {
     background: white;
     padding: 2px 0px;
     font-size: 21px;
@@ -961,24 +966,24 @@ nav .navbar-nav .nav-item:hover {
 .testimonials .review-info .reviewer-person h3 {
     color: var(--third-color);
     font-size: 16px;
- }
+}
 
- .testimonials .review-info .reviewer-person > span {
+.testimonials .review-info .reviewer-person>span {
     font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
- }
+}
 
- .testimonials .review-info .reviewer-person .social {
+.testimonials .review-info .reviewer-person .social {
     font-size: 12px;
- }
+}
 
- .testimonials .review-info .reviewer-person .social svg {
+.testimonials .review-info .reviewer-person .social svg {
     color: var(--main-color);
- }
+}
 
 .review-nums p {
-    background-image: linear-gradient(to right in oklab,  #ea580c 0%, #ea580c 50%, #c2410c 100%);
+    background-image: linear-gradient(to right in oklab, #ea580c 0%, #ea580c 50%, #c2410c 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 24px !important;
@@ -999,18 +1004,18 @@ nav .navbar-nav .nav-item:hover {
 }
 
 .indicators button {
-   border-radius: 50%;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   -ms-border-radius: 50%;
-   -o-border-radius: 50%;
-   width: 10px !important;
-   height: 10px !important;
-   transition: 0.5s;
-   -webkit-transition: 0.5s !important;
-   -moz-transition: 0.5s;
-   -ms-transition: 0.5s;
-   -o-transition: 0.5s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s !important;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 .indicators button:hover {
