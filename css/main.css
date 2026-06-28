@@ -990,3 +990,34 @@ nav .navbar-nav .nav-item:hover {
     margin-top: -5px;
     color: var(--text-color);
 }
+
+.indicators {
+    position: relative;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indicators button {
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   width: 10px !important;
+   height: 10px !important;
+   transition: 0.5s;
+   -webkit-transition: 0.5s !important;
+   -moz-transition: 0.5s;
+   -ms-transition: 0.5s;
+   -o-transition: 0.5s;
+}
+
+.indicators button:hover {
+    width: 25px !important;
+    border-radius: 45% !important;
+    -webkit-border-radius: 45% !important;
+    -moz-border-radius: 45% !important;
+    -ms-border-radius: 45% !important;
+    -o-border-radius: 45% !important;
+}
