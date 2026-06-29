@@ -1051,21 +1051,30 @@ nav .navbar-nav .nav-item:hover {
 
 .accordion-custom button:focus {
     box-shadow: none;
-    background-color: transparent;
-    border: none;
+    border: 0;
     font-size: 16px
 }
 
 .accordion-card button:hover {
     background-color: #fbf9fa;
+    border-bottom: 0;
 }
 
 
 .accordion-card button:not(.collapsed) {
     background-color: transparent;
-    border-bottom: none;
 }
 
+.accordion-card button:not(.collapsed),
+.accordion-card button:not(.collapsed):hover  {
+    border-bottom: 0;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.accordion-card button:not(.collapsed):hover {
+    background-color: #fbf9fa;
+}
 .accordion-custom .accordion-text {
     font-size:  14px;
     color: var(--text-color);
