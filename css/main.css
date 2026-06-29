@@ -1082,5 +1082,22 @@ nav .navbar-nav .nav-item:hover {
 }
 
 
-
 /*? End FAQ */
+
+
+/*? Start Contact */
+
+.contact {
+    background-image: linear-gradient(to bottom right in oklab, #fff7ed 0%, #fff 50%, #fff7ed 100%);
+}
+
+.contact .main-title h2 {
+    font-size: 60px;
+}
+
+.contact .main-title h2 .h2-text-2 {
+    background-image: linear-gradient(to right in oklab, #ea580c 0%, #c2410c 50%, #fb923c 100%
+);
+}
+
+/*? Start Contact */
