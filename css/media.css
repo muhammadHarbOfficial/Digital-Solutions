@@ -90,7 +90,9 @@
 }
     .dropdown-menu.show {
         display: flex;
-        min-width: 50vw;
+        min-width: 992px;
+        width: 1200px;
+        max-width: 100vw !important;
         justify-content: space-between;
     }
 
