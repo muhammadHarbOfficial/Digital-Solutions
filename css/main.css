@@ -1060,6 +1060,7 @@ nav .navbar-nav .nav-item:hover {
 .accordion button:not(.collapsed) {
     background-color: transparent;
     border: 0;
+    box-shadow: none;
 }
 
 .accordion button:hover,
