@@ -98,7 +98,6 @@ body {
     font-family: "Inter", sans-serif;
     min-height: 100vh;
     color: var(--text-color);
-    min-height: 10000px;
 }
 
 .main-btn {
@@ -811,7 +810,7 @@ nav .navbar-nav .nav-item:hover {
 
 .google .tag {
     background-color: var(--golang-bg);
-    color: var(--redis-color);
+    color: var(--golang-color);
 }
 
 .docker {
@@ -819,7 +818,7 @@ nav .navbar-nav .nav-item:hover {
 }
 
 .docker .card-icon {
-    background-color: var(--microsoft-bg-color);
+    background-color: var(--react-bg-color);
 }
 
 .docker .tag {
@@ -884,7 +883,7 @@ nav .navbar-nav .nav-item:hover {
 
 .redis .tag {
     background-color: var(--golang-bg);
-    color: var(--redis-color);
+    color: var(--golang-color);
 }
 
 .mysql {
@@ -1049,7 +1048,7 @@ nav .navbar-nav .nav-item:hover {
 }
 
 
-.accordion-card button::after  {
+.accordion-card button::after {
     border: 2px solid var(--bg-custom);
     background-color: var(--bg-custom);
     border-radius: 50%;
@@ -1059,7 +1058,7 @@ nav .navbar-nav .nav-item:hover {
 }
 
 
-.accordion button:not(.collapsed){
+.accordion button:not(.collapsed) {
     background-color: transparent;
     border: 0;
 }
@@ -1071,7 +1070,7 @@ nav .navbar-nav .nav-item:hover {
 }
 
 .accordion-custom .accordion-text {
-    font-size:  14px;
+    font-size: 14px;
     color: var(--text-color);
     line-height: 2;
 }
@@ -1096,8 +1095,7 @@ nav .navbar-nav .nav-item:hover {
 }
 
 .contact .main-title h2 .h2-text-2 {
-    background-image: linear-gradient(to right in oklab, #ea580c 0%, #c2410c 50%, #fb923c 100%
-);
+    background-image: linear-gradient(to right in oklab, #ea580c 0%, #c2410c 50%, #fb923c 100%);
 }
 
-/*? Start Contact */
+/*? End Contact */
