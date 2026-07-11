@@ -156,9 +156,15 @@ hr {
 
 .navbar .navbar-brand svg {
     background-image: linear-gradient(to right, var(--main-color), var(--second-color));
+    color: #fff;
     font-size: 18px;
     padding: 10px 8px;
     border-radius: 10px;
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
 .navbar .nav-link {
@@ -191,6 +197,10 @@ nav .navbar-nav .nav-item:hover {
     height: 2px;
     background-color: var(--main-color);
     transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 
 .navbar .nav-link:hover::before,
@@ -251,8 +261,6 @@ nav .navbar-nav .nav-item:hover {
     font-size: 14px;
     height: 35px;
     width: 35px;
-
-   
     margin-right: 10px;
 }
 
@@ -288,7 +296,6 @@ nav .navbar-nav .nav-item:hover {
 .dropdown-menu ul .help-box {
     border: 1px solid #fad0bf;
     background-color: #FCEDE9;
-   
 }
 
 .dropdown-menu ul .help-box p:last-of-type {
